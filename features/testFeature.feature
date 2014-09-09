@@ -6,3 +6,4 @@ Feature: Running Cucumber with Protractor
   Scenario: Wrapping WebDriver
     Given I go on "index.html"
     Then the title should equal "My AngularJS App"
+    And the menu should contain "Home"
