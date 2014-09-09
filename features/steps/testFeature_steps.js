@@ -26,7 +26,7 @@ module.exports = function() {
         return text === arg1;
       });
     }).then(function(filteredElements) {
-        expect(filteredElements.length).to.equal(1);
+        expect(filteredElements).to.have.length(1);
         callback();
     });
   });
